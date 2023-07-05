@@ -227,13 +227,19 @@ nav > ul li a:hover{
         height: 100%;
     }
 }
-@media (max-width: 1300px) and (min-width: 500px) {
+@media (max-width: 1300px) and (min-width: 0px) {
     .Services{
         height: auto;
         width: auto;
     }
-    .item2 div{
+    .item2 div, .item2 h1{
         grid-column: span 3;
         width: 100%;
     }
+    .About .item1 h1{
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
 }  
