@@ -266,4 +266,11 @@ nav > ul li a:hover{
     .item1 .abouttext{
         font-size: 1rem;
     }
+    .item1 .abouttext{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .About{
+        height: 65vh;
+    }
 }
