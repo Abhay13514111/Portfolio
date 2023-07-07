@@ -87,7 +87,7 @@ nav > ul li a:hover{
     width: 80%;
     display: grid;
     grid-template: 2fr 3fr 12fr / 100%;
-    position: block;
+    position: absolute;
     left: 0;
     top: 0;
     bottom: 0;
@@ -265,10 +265,9 @@ nav > ul li a:hover{
     }
     
 }
-@media (orientation: Landscape) and (max-width: 1300px){
+@media (orientation: Landscape){
     .item1{
         padding: 10px 8%;
-        display: block;
     }
 }
 
