@@ -238,7 +238,7 @@ nav > ul li a:hover{
         grid-column: span 3;
         width: 100%;
     }
-    /* .About .item1 h1{
+    .About .item1 h1{
         height: auto;
         width: 100%;
         padding-top: 10px;
@@ -247,7 +247,7 @@ nav > ul li a:hover{
         text-align: center;
         width: 100%;
         
-    } */
+    }
 }  
 
 @media (max-width: 740px){
