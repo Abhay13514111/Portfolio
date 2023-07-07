@@ -267,3 +267,9 @@ nav > ul li a:hover{
     
 }
 
+@media (orientation: Landscape) and (max-height: 400px){
+    .item1{
+        padding: 10px 8%;
+    }
+}
+
