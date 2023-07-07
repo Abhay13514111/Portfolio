@@ -266,15 +266,9 @@ nav > ul li a:hover{
     
 }
 @media (orientation: Landscape){
-    .About{
-        height: 100vh;
-    }
     .item1{
         width: 100%;
-    }
-}
-@media (orientation: Landscape){
-    .About{
         height: 100vh;
     }
 }
+
