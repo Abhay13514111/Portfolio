@@ -90,7 +90,6 @@ nav > ul li a:hover{
     position: absolute;
     left: 0;
     top: 0;
-    bottom: 0;
     padding: 150px 8%;
     background-color: ghostwhite;
 }
@@ -265,9 +264,5 @@ nav > ul li a:hover{
     }
     
 }
-@media (orientation: Landscape) and (max-height: 400px){
-    .item1{
-        padding: 10px 8%;
-    }
-}
+
 
