@@ -238,16 +238,6 @@ nav > ul li a:hover{
         grid-column: span 3;
         width: 100%;
     }
-    .About .item1 h1{
-        height: auto;
-        width: 100%;
-        padding-top: 10px;
-    }
-    .home .item h1{
-        text-align: center;
-        width: 100%;
-        
-    }
 }  
 
 @media (max-width: 740px){
@@ -274,6 +264,14 @@ nav > ul li a:hover{
         padding: 0 35px
     }
     
+}
+@media (orientation: Landscape){
+    .About{
+        height: 100vh;
+    }
+    .item1{
+        width: 100%;
+    }
 }
 @media (orientation: Landscape){
     .About{
