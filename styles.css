@@ -266,6 +266,8 @@ nav > ul li a:hover{
     
 }
 @media (orientation: Landscape){
-    
+    .item1{
+        padding: 50px;
+    }
 }
 
