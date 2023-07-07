@@ -63,6 +63,8 @@ nav > ul li a:hover{
     font-size: 60px;
     text-align: center;
     width: 60%;
+    
+    justify-content: center;
 }
 
 .home, .About , .Services , .Footer{
@@ -236,7 +238,7 @@ nav > ul li a:hover{
         grid-column: span 3;
         width: 100%;
     }
-    .About .item1 h1{
+    /* .About .item1 h1{
         height: auto;
         width: 100%;
         padding-top: 10px;
@@ -244,5 +246,24 @@ nav > ul li a:hover{
     .home .item h1{
         text-align: center;
         width: 100%;
-    }
+        
+    } */
 }  
+
+@media (max-width: 740px){
+    nav > ul li a{
+        font-size: 85%;
+    }
+    nav > ul li{
+        margin-left: 10px;
+    }
+    .item h1, .item1 h1, .item2>h1, .item3> h2{
+        font-size: 2rem;
+    }
+    .item1 .headingp{
+        font-size: 1.5rem;
+    }
+    .item1 .abouttext{
+        font-size: 1rem;
+    }
+}
