@@ -203,7 +203,7 @@ nav > ul li a:hover{
     text-align: center;
 }
 
-.item3 a{
+.item3 div a>i{
     padding: 0 10px 30px;
     color: #606C5D;
 }
